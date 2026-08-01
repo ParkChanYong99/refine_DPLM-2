@@ -17,7 +17,8 @@ from tqdm.auto import tqdm
 
 def run_tmalign(query, reference, fast=True):
     # --> one to one
-    exec = "./TMalign"
+    #exec = "./TMalign"
+    exec = "./analysis/TMalign"
     cmd = f"{exec} {query} {reference}"
     if fast:
         cmd += " -fast"
