@@ -1,0 +1,178 @@
+row_type	aligned_backbone_rmsd	aligned_ca_rmsd	alpha	alpha1_improvement_vs_alpha0	best_aligned_ca_rmsd	best_alpha	best_improvement_vs_alpha0	improved_sample_fraction_vs_alpha0	mean	mean_aligned_backbone_rmsd	mean_aligned_ca_rmsd	median	median_aligned_ca_rmsd	metric	nonaligned_backbone_rmsd	nonaligned_ca_rmsd	num_samples	sample	value
+tensor														encoder_feats				7dz2_C.pkl	shape=[1, 286, 512] dtype=torch.float32
+tensor														e_cont				7dz2_C.pkl	shape=[1, 286, 13] dtype=torch.float32
+tensor														e_quant				7dz2_C.pkl	shape=[1, 286, 13] dtype=torch.float32
+tensor														struct_ids				7dz2_C.pkl	shape=[1, 286] dtype=torch.int64
+tensor														latent_residual				7dz2_C.pkl	shape=[1, 286, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7dz2_C.pkl	shape=[1, 286, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7dz2_C.pkl	shape=[1, 286, 37] dtype=torch.float32
+check														residual_identity_max_error				7dz2_C.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7dz2_C.pkl	0.0
+check														decoder_equivalence_max_error				7dz2_C.pkl	0.0
+check														decoder_equivalence_rmsd				7dz2_C.pkl	0.0
+sample_alpha	1.236246109008789	1.1318359375	0.0												27.217676162719727	27.194320678710938		7dz2_C.pkl	
+sample_alpha	1.08534574508667	0.9684327244758606	0.25												27.256799697875977	27.230180740356445		7dz2_C.pkl	
+sample_alpha	1.0309158563613892	0.9205271601676941	0.5												27.316139221191406	27.287845611572266		7dz2_C.pkl	
+sample_alpha	1.0600907802581787	0.9526263475418091	0.75												27.365800857543945	27.340286254882812		7dz2_C.pkl	
+sample_alpha	1.093225359916687	0.9868131279945374	1.0												27.42366600036621	27.396623611450195		7dz2_C.pkl	
+sample_summary				0.14502280950546265	0.9205271601676941	0.5	0.2113087773323059											7dz2_C.pkl	
+tensor														encoder_feats				7fgb_A.pkl	shape=[1, 489, 512] dtype=torch.float32
+tensor														e_cont				7fgb_A.pkl	shape=[1, 489, 13] dtype=torch.float32
+tensor														e_quant				7fgb_A.pkl	shape=[1, 489, 13] dtype=torch.float32
+tensor														struct_ids				7fgb_A.pkl	shape=[1, 489] dtype=torch.int64
+tensor														latent_residual				7fgb_A.pkl	shape=[1, 489, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7fgb_A.pkl	shape=[1, 489, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7fgb_A.pkl	shape=[1, 489, 37] dtype=torch.float32
+check														residual_identity_max_error				7fgb_A.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7fgb_A.pkl	0.0
+check														decoder_equivalence_max_error				7fgb_A.pkl	0.0
+check														decoder_equivalence_rmsd				7fgb_A.pkl	0.0
+sample_alpha	1.5341098308563232	1.4108752012252808	0.0												24.44174575805664	24.46697425842285		7fgb_A.pkl	
+sample_alpha	1.2650035619735718	1.136549711227417	0.25												24.674184799194336	24.699556350708008		7fgb_A.pkl	
+sample_alpha	1.294421672821045	1.1659106016159058	0.5												24.886472702026367	24.91069984436035		7fgb_A.pkl	
+sample_alpha	1.325730323791504	1.1969131231307983	0.75												25.352882385253906	25.37728500366211		7fgb_A.pkl	
+sample_alpha	1.3428841829299927	1.2155085802078247	1.0												25.52769660949707	25.554563522338867		7fgb_A.pkl	
+sample_summary				0.19536662101745605	1.136549711227417	0.25	0.27432548999786377											7fgb_A.pkl	
+tensor														encoder_feats				7fgp_A.pkl	shape=[1, 390, 512] dtype=torch.float32
+tensor														e_cont				7fgp_A.pkl	shape=[1, 390, 13] dtype=torch.float32
+tensor														e_quant				7fgp_A.pkl	shape=[1, 390, 13] dtype=torch.float32
+tensor														struct_ids				7fgp_A.pkl	shape=[1, 390] dtype=torch.int64
+tensor														latent_residual				7fgp_A.pkl	shape=[1, 390, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7fgp_A.pkl	shape=[1, 390, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7fgp_A.pkl	shape=[1, 390, 37] dtype=torch.float32
+check														residual_identity_max_error				7fgp_A.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7fgp_A.pkl	0.0
+check														decoder_equivalence_max_error				7fgp_A.pkl	0.0
+check														decoder_equivalence_rmsd				7fgp_A.pkl	0.0
+sample_alpha	1.5763158798217773	1.4819426536560059	0.0												24.38094139099121	24.395132064819336		7fgp_A.pkl	
+sample_alpha	1.4462897777557373	1.333318829536438	0.25												23.925762176513672	23.932851791381836		7fgp_A.pkl	
+sample_alpha	1.4524613618850708	1.3449863195419312	0.5												23.59559440612793	23.597042083740234		7fgp_A.pkl	
+sample_alpha	1.5220351219177246	1.4172786474227905	0.75												23.265687942504883	23.267229080200195		7fgp_A.pkl	
+sample_alpha	1.6894114017486572	1.5956964492797852	1.0												22.882007598876953	22.88759994506836		7fgp_A.pkl	
+sample_summary				-0.1137537956237793	1.333318829536438	0.25	0.14862382411956787											7fgp_A.pkl	
+tensor														encoder_feats				7fh0_B.pkl	shape=[1, 261, 512] dtype=torch.float32
+tensor														e_cont				7fh0_B.pkl	shape=[1, 261, 13] dtype=torch.float32
+tensor														e_quant				7fh0_B.pkl	shape=[1, 261, 13] dtype=torch.float32
+tensor														struct_ids				7fh0_B.pkl	shape=[1, 261] dtype=torch.int64
+tensor														latent_residual				7fh0_B.pkl	shape=[1, 261, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7fh0_B.pkl	shape=[1, 261, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7fh0_B.pkl	shape=[1, 261, 37] dtype=torch.float32
+check														residual_identity_max_error				7fh0_B.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7fh0_B.pkl	0.0
+check														decoder_equivalence_max_error				7fh0_B.pkl	0.0
+check														decoder_equivalence_rmsd				7fh0_B.pkl	0.0
+sample_alpha	13.410913467407227	13.42274284362793	0.0												40.3166618347168	40.305606842041016		7fh0_B.pkl	
+sample_alpha	2.4658350944519043	2.3770713806152344	0.25												30.41139793395996	30.453433990478516		7fh0_B.pkl	
+sample_alpha	2.4944119453430176	2.4085893630981445	0.5												30.790626525878906	30.828893661499023		7fh0_B.pkl	
+sample_alpha	2.286947011947632	2.203864097595215	0.75												31.28117561340332	31.31447982788086		7fh0_B.pkl	
+sample_alpha	2.2893011569976807	2.2138102054595947	1.0												31.425817489624023	31.455018997192383		7fh0_B.pkl	
+sample_summary				11.208932638168335	2.203864097595215	0.75	11.218878746032715											7fh0_B.pkl	
+tensor														encoder_feats				7lt7_A.pkl	shape=[1, 35, 512] dtype=torch.float32
+tensor														e_cont				7lt7_A.pkl	shape=[1, 35, 13] dtype=torch.float32
+tensor														e_quant				7lt7_A.pkl	shape=[1, 35, 13] dtype=torch.float32
+tensor														struct_ids				7lt7_A.pkl	shape=[1, 35] dtype=torch.int64
+tensor														latent_residual				7lt7_A.pkl	shape=[1, 35, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7lt7_A.pkl	shape=[1, 35, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7lt7_A.pkl	shape=[1, 35, 37] dtype=torch.float32
+check														residual_identity_max_error				7lt7_A.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7lt7_A.pkl	0.0
+check														decoder_equivalence_max_error				7lt7_A.pkl	0.0
+check														decoder_equivalence_rmsd				7lt7_A.pkl	0.0
+sample_alpha	6.6024346351623535	6.550985336303711	0.0												23.63872718811035	23.814048767089844		7lt7_A.pkl	
+sample_alpha	6.038235187530518	5.986698627471924	0.25												22.27554702758789	22.48596954345703		7lt7_A.pkl	
+sample_alpha	6.601140022277832	6.5778350830078125	0.5												21.785531997680664	22.056089401245117		7lt7_A.pkl	
+sample_alpha	6.5940446853637695	6.58648157119751	0.75												24.285165786743164	24.596073150634766		7lt7_A.pkl	
+sample_alpha	6.292311668395996	6.298741817474365	1.0												26.388778686523438	26.730072021484375		7lt7_A.pkl	
+sample_summary				0.2522435188293457	5.986698627471924	0.25	0.5642867088317871											7lt7_A.pkl	
+tensor														encoder_feats				7lx4_A.pkl	shape=[1, 41, 512] dtype=torch.float32
+tensor														e_cont				7lx4_A.pkl	shape=[1, 41, 13] dtype=torch.float32
+tensor														e_quant				7lx4_A.pkl	shape=[1, 41, 13] dtype=torch.float32
+tensor														struct_ids				7lx4_A.pkl	shape=[1, 41] dtype=torch.int64
+tensor														latent_residual				7lx4_A.pkl	shape=[1, 41, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7lx4_A.pkl	shape=[1, 41, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7lx4_A.pkl	shape=[1, 41, 37] dtype=torch.float32
+check														residual_identity_max_error				7lx4_A.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7lx4_A.pkl	0.0
+check														decoder_equivalence_max_error				7lx4_A.pkl	0.0
+check														decoder_equivalence_rmsd				7lx4_A.pkl	0.0
+sample_alpha	1.5943785905838013	1.4722095727920532	0.0												14.1152982711792	14.1990966796875		7lx4_A.pkl	
+sample_alpha	1.490159034729004	1.3297404050827026	0.25												14.633746147155762	14.77011489868164		7lx4_A.pkl	
+sample_alpha	1.396651268005371	1.2141058444976807	0.5												15.216845512390137	15.340863227844238		7lx4_A.pkl	
+sample_alpha	1.3336985111236572	1.1458803415298462	0.75												15.466898918151855	15.600269317626953		7lx4_A.pkl	
+sample_alpha	1.2988663911819458	1.1017314195632935	1.0												15.726279258728027	15.852426528930664		7lx4_A.pkl	
+sample_summary				0.37047815322875977	1.1017314195632935	1.0	0.37047815322875977											7lx4_A.pkl	
+tensor														encoder_feats				7m1z_B.pkl	shape=[1, 430, 512] dtype=torch.float32
+tensor														e_cont				7m1z_B.pkl	shape=[1, 430, 13] dtype=torch.float32
+tensor														e_quant				7m1z_B.pkl	shape=[1, 430, 13] dtype=torch.float32
+tensor														struct_ids				7m1z_B.pkl	shape=[1, 430] dtype=torch.int64
+tensor														latent_residual				7m1z_B.pkl	shape=[1, 430, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7m1z_B.pkl	shape=[1, 430, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7m1z_B.pkl	shape=[1, 430, 37] dtype=torch.float32
+check														residual_identity_max_error				7m1z_B.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7m1z_B.pkl	0.0
+check														decoder_equivalence_max_error				7m1z_B.pkl	0.0
+check														decoder_equivalence_rmsd				7m1z_B.pkl	0.0
+sample_alpha	4.339106559753418	4.35560417175293	0.0												43.0843391418457	43.03376007080078		7m1z_B.pkl	
+sample_alpha	3.212681531906128	3.1938693523406982	0.25												42.12821960449219	42.076812744140625		7m1z_B.pkl	
+sample_alpha	2.9297120571136475	2.9022200107574463	0.5												42.139774322509766	42.089988708496094		7m1z_B.pkl	
+sample_alpha	2.787320852279663	2.760279893875122	0.75												42.351348876953125	42.302589416503906		7m1z_B.pkl	
+sample_alpha	2.6965444087982178	2.6700661182403564	1.0												42.59632110595703	42.54940414428711		7m1z_B.pkl	
+sample_summary				1.6855380535125732	2.6700661182403564	1.0	1.6855380535125732											7m1z_B.pkl	
+tensor														encoder_feats				7mj3_A.pkl	shape=[1, 44, 512] dtype=torch.float32
+tensor														e_cont				7mj3_A.pkl	shape=[1, 44, 13] dtype=torch.float32
+tensor														e_quant				7mj3_A.pkl	shape=[1, 44, 13] dtype=torch.float32
+tensor														struct_ids				7mj3_A.pkl	shape=[1, 44] dtype=torch.int64
+tensor														latent_residual				7mj3_A.pkl	shape=[1, 44, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7mj3_A.pkl	shape=[1, 44, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7mj3_A.pkl	shape=[1, 44, 37] dtype=torch.float32
+check														residual_identity_max_error				7mj3_A.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7mj3_A.pkl	0.0
+check														decoder_equivalence_max_error				7mj3_A.pkl	0.0
+check														decoder_equivalence_rmsd				7mj3_A.pkl	0.0
+sample_alpha	1.3628480434417725	1.2805148363113403	0.0												7.597384452819824	7.567070007324219		7mj3_A.pkl	
+sample_alpha	1.2170411348342896	1.1373274326324463	0.25												7.025763511657715	7.009556770324707		7mj3_A.pkl	
+sample_alpha	1.2152047157287598	1.116206407546997	0.5												6.44001579284668	6.40989875793457		7mj3_A.pkl	
+sample_alpha	1.2686330080032349	1.1609244346618652	0.75												5.964508056640625	5.910624027252197		7mj3_A.pkl	
+sample_alpha	1.3330520391464233	1.2387663125991821	1.0												5.572200775146484	5.514501094818115		7mj3_A.pkl	
+sample_summary				0.0417485237121582	1.116206407546997	0.5	0.16430842876434326											7mj3_A.pkl	
+tensor														encoder_feats				7n3y_A.pkl	shape=[1, 413, 512] dtype=torch.float32
+tensor														e_cont				7n3y_A.pkl	shape=[1, 413, 13] dtype=torch.float32
+tensor														e_quant				7n3y_A.pkl	shape=[1, 413, 13] dtype=torch.float32
+tensor														struct_ids				7n3y_A.pkl	shape=[1, 413] dtype=torch.int64
+tensor														latent_residual				7n3y_A.pkl	shape=[1, 413, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7n3y_A.pkl	shape=[1, 413, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7n3y_A.pkl	shape=[1, 413, 37] dtype=torch.float32
+check														residual_identity_max_error				7n3y_A.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7n3y_A.pkl	0.0
+check														decoder_equivalence_max_error				7n3y_A.pkl	0.0
+check														decoder_equivalence_rmsd				7n3y_A.pkl	0.0
+sample_alpha	1.7845550775527954	1.7175135612487793	0.0												29.867353439331055	29.88863754272461		7n3y_A.pkl	
+sample_alpha	1.3627616167068481	1.243087649345398	0.25												29.86740493774414	29.884164810180664		7n3y_A.pkl	
+sample_alpha	1.309928059577942	1.185350775718689	0.5												29.855892181396484	29.87333869934082		7n3y_A.pkl	
+sample_alpha	1.2809529304504395	1.1565537452697754	0.75												29.930950164794922	29.950292587280273		7n3y_A.pkl	
+sample_alpha	1.2737553119659424	1.1546379327774048	1.0												29.98139762878418	30.002723693847656		7n3y_A.pkl	
+sample_summary				0.5628756284713745	1.1546379327774048	1.0	0.5628756284713745											7n3y_A.pkl	
+tensor														encoder_feats				7n6h_A.pkl	shape=[1, 444, 512] dtype=torch.float32
+tensor														e_cont				7n6h_A.pkl	shape=[1, 444, 13] dtype=torch.float32
+tensor														e_quant				7n6h_A.pkl	shape=[1, 444, 13] dtype=torch.float32
+tensor														struct_ids				7n6h_A.pkl	shape=[1, 444] dtype=torch.int64
+tensor														latent_residual				7n6h_A.pkl	shape=[1, 444, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7n6h_A.pkl	shape=[1, 444, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7n6h_A.pkl	shape=[1, 444, 37] dtype=torch.float32
+check														residual_identity_max_error				7n6h_A.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7n6h_A.pkl	0.0
+check														decoder_equivalence_max_error				7n6h_A.pkl	0.0
+check														decoder_equivalence_rmsd				7n6h_A.pkl	0.0
+sample_alpha	1.3625980615615845	1.2772340774536133	0.0												26.27344512939453	26.314531326293945		7n6h_A.pkl	
+sample_alpha	1.360196590423584	1.2450098991394043	0.25												25.781782150268555	25.82171630859375		7n6h_A.pkl	
+sample_alpha	1.340004324913025	1.228429913520813	0.5												25.546077728271484	25.581899642944336		7n6h_A.pkl	
+sample_alpha	1.3102728128433228	1.193800449371338	0.75												25.42469024658203	25.45765495300293		7n6h_A.pkl	
+sample_alpha	1.291982889175415	1.1754343509674072	1.0												25.377134323120117	25.4080867767334		7n6h_A.pkl	
+sample_summary				0.10179972648620605	1.1754343509674072	1.0	0.10179972648620605											7n6h_A.pkl	
+overall_alpha			0.0					0.0		3.4803506255149843	3.4101458191871643		1.4770761132240295				10		
+overall_alpha			0.25					1.0		2.0943549275398254	1.9951106011867523		1.2873751521110535				10		
+overall_alpha			0.5					0.9		2.10648512840271	2.0064161479473115		1.2212678790092468				10		
+overall_alpha			0.75					0.9		2.0769726037979126	1.977460265159607		1.1953567862510681				10		
+overall_alpha			1.0					0.9		2.0601334810256957	1.9651206314563752		1.2271374464035034				10		
+overall_summary									1.5302423536777496			0.32240182161331177		best_improvement_vs_alpha0			10		
+overall_summary									1.4450251877307891			0.22380506992340088		alpha1_improvement_vs_alpha0			10		
