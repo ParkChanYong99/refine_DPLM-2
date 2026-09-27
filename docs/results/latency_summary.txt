@@ -1,0 +1,56 @@
+FM_VS_MATCHED_DDPM_LATENCY_BENCHMARK
+
+GPU: NVIDIA RTX 2000 Ada Generation
+dtype: torch.float32
+batch size: 1
+targets: 16
+repeats: 3
+FM NFE: 100
+Matched DDPM NFE: 1000
+
+RESIDUAL-ONLY
+FM mean ms: 459.857828
+FM median ms: 422.845473
+FM std/min/max ms: 97.634177 / 380.386619 / 617.834479
+Matched DDPM mean ms: 6763.973591
+Matched DDPM median ms: 6434.198538
+Matched DDPM std/min/max ms: 882.033874 / 5974.652619 / 8167.957995
+median target-wise speedup: 15.251932
+median-latency ratio: 15.216430
+FM ms/NFE: 4.228454730
+Matched DDPM ms/NFE: 6.434198538
+median ms/NFE ratio (Matched DDPM / FM): 1.521643
+
+POST-BIT
+FM mean/median ms: 810.500600 / 723.972916
+Matched DDPM mean/median ms: 7115.879309 / 6736.365094
+median target-wise speedup: 9.391680
+median-latency ratio: 9.304720
+
+END-TO-END (derived synchronized sequential component sum)
+shared Bit mean/median ms: 16363.366375 / 14622.917108
+shared extra-forward mean/median ms: 168.152001 / 151.374420
+FM mean/median ms: 17173.866975 / 15339.475520
+Matched DDPM mean/median ms: 23479.245684 / 21367.862826
+median target-wise speedup: 1.416088
+median-latency ratio: 1.392998
+
+LENGTH-BIN
+50-128 N=4: residual FM/Matched-DDPM=384.122/6033.331 ms speedup=15.7068; e2e FM/Matched-DDPM=8298.087/13918.485 ms speedup=1.6773; residual residues/s=169.219/10.773; e2e residues/s=7.833/4.670
+129-256 N=4: residual FM/Matched-DDPM=383.806/6073.572 ms speedup=15.8246; e2e FM/Matched-DDPM=11237.176/16916.004 ms speedup=1.5054; residual residues/s=341.318/21.569; e2e residues/s=11.658/7.744
+257-384 N=4: residual FM/Matched-DDPM=450.722/6811.056 ms speedup=15.1114; e2e FM/Matched-DDPM=19444.211/25799.083 ms speedup=1.3268; residual residues/s=577.686/38.247; e2e residues/s=13.379/10.088
+385-512 N=4: residual FM/Matched-DDPM=617.003/8145.195 ms speedup=13.2012; e2e FM/Matched-DDPM=29722.513/37256.921 ms speedup=1.2535; residual residues/s=629.623/47.715; e2e residues/s=13.072/10.431
+
+PEAK CUDA (both residual models resident; method block reset separately)
+FM allocated/reserved MiB: 3381.766 / 4826.000
+Matched DDPM allocated/reserved MiB: 3381.825 / 4826.000
+total benchmark runtime seconds: 1271.966
+
+SANITY
+same 16 targets/z_quant/condition/masks/batch/GPU/dtype: PASS
+DPLM frozen; FM/Matched DDPM eval; inference_mode/no gradients: PASS
+all sampled residuals and decoded atom37 tensors finite: PASS
+NFE reduction: 1000 -> 100 = 10x fewer residual-model evaluations
+measured speedups: reported above; no fixed latency speedup assumed
+
+overall: LATENCY_BENCHMARK_PASS
