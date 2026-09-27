@@ -179,3 +179,9 @@ wandb/
 vendor/
 Miniconda3-latest-Linux-*.sh
 
+
+# DPLM latent residual experiment artifacts
+experiments/latent_residual_fm/runs/
+experiments/latent_residual_ddpm/runs/
+*.pt
+*.pth

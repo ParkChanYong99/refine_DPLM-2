@@ -1,0 +1,38 @@
+FM_VS_DDIM100_INTERLEAVED_LATENCY
+GPU: NVIDIA RTX 2000 Ada Generation
+dtype: torch.float32
+targets: 16
+repeats: 5
+batch size: 1
+FM NFE: 100
+DDIM NFE: 100
+
+[FM-100]
+mean ms: 400.305789182
+median ms: 399.847084424
+std/min/max ms: 5.141042985 / 391.352928011 / 411.375972908
+median ms/NFE: 3.998470844
+median residues/s: 484.596165830
+
+[Matched DDPM (DDIM-100)]
+mean ms: 437.005612723
+median ms: 436.039869441
+std/min/max ms: 6.710665931 / 425.926615950 / 453.822168987
+median ms/NFE: 4.360398694
+median residues/s: 439.225726820
+
+median target-wise DDIM/FM ratio: 1.091421832
+aggregate median ratio: 1.090516566
+median paired difference ms: 36.446723156
+
+[length bins]
+50-128 N=4: FM=398.642422 ms, DDIM=435.089146 ms, ratio=1.091427, residues/s FM/DDIM=163.055435/149.398264
+129-256 N=4: FM=398.824905 ms, DDIM=438.588209 ms, ratio=1.099701, residues/s FM/DDIM=328.466320/298.686857
+257-384 N=4: FM=403.342167 ms, DDIM=435.695275 ms, ratio=1.080213, residues/s FM/DDIM=644.654360/596.748263
+385-512 N=4: FM=400.063004 ms, DDIM=434.989989 ms, ratio=1.087304, residues/s FM/DDIM=971.134296/893.129714
+
+same-session: YES
+interleaved: YES
+NaN/Inf: PASS
+runtime seconds: 256.249440
+overall: FM_VS_DDIM100_INTERLEAVED_LATENCY_PASS

@@ -1,0 +1,27 @@
+COMPUTE_MATCHED_100NFE
+DDPM training T: 1000
+DDPM accelerated sampler: DDIM eta=0
+DDPM sampling NFE: 100
+FM sampling NFE: 100
+alpha: 0.50
+
+CAMEO: N=163
+FM-100 BB RMSD: 6.19972204
+FM-100 TM: 0.844954294
+Matched DDPM (DDIM-100) BB RMSD: 6.21658677
+Matched DDPM (DDIM-100) TM: 0.843924419
+Matched DDPM ancestral-1000 reference BB RMSD: 6.19250677
+Matched DDPM ancestral-1000 reference TM: 0.843772619
+
+PDB-date: N=442
+FM-100 BB RMSD: 3.10744498
+FM-100 TM: 0.91385542
+Matched DDPM (DDIM-100) BB RMSD: 3.1270931
+Matched DDPM (DDIM-100) TM: 0.913761325
+Matched DDPM ancestral-1000 reference BB RMSD: 3.11804019
+Matched DDPM ancestral-1000 reference TM: 0.913043985
+
+NFE audit: PASS
+determinism: PASS
+NaN/Inf: PASS
+overall: COMPUTE_MATCHED_100NFE_PASS

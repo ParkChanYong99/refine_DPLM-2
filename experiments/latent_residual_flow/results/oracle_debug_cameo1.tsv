@@ -1,0 +1,25 @@
+row_type	aligned_backbone_rmsd	aligned_ca_rmsd	alpha	alpha1_improvement_vs_alpha0	best_aligned_ca_rmsd	best_alpha	best_improvement_vs_alpha0	improved_sample_fraction_vs_alpha0	mean	mean_aligned_backbone_rmsd	mean_aligned_ca_rmsd	median	median_aligned_ca_rmsd	metric	nonaligned_backbone_rmsd	nonaligned_ca_rmsd	num_samples	sample	value
+tensor														encoder_feats				7dz2_C.pkl	shape=[1, 286, 512] dtype=torch.float32
+tensor														e_cont				7dz2_C.pkl	shape=[1, 286, 13] dtype=torch.float32
+tensor														e_quant				7dz2_C.pkl	shape=[1, 286, 13] dtype=torch.float32
+tensor														struct_ids				7dz2_C.pkl	shape=[1, 286] dtype=torch.int64
+tensor														latent_residual				7dz2_C.pkl	shape=[1, 286, 13] dtype=torch.float32
+tensor														decoded_atom37_positions				7dz2_C.pkl	shape=[1, 286, 37, 3] dtype=torch.float32
+tensor														decoded_atom37_mask				7dz2_C.pkl	shape=[1, 286, 37] dtype=torch.float32
+check														residual_identity_max_error				7dz2_C.pkl	2.9802322387695312e-08
+check														token_roundtrip_max_error				7dz2_C.pkl	0.0
+check														decoder_equivalence_max_error				7dz2_C.pkl	0.0
+check														decoder_equivalence_rmsd				7dz2_C.pkl	0.0
+sample_alpha	1.236246109008789	1.1318359375	0.0												27.217676162719727	27.194320678710938		7dz2_C.pkl	
+sample_alpha	1.0853456258773804	0.9684325456619263	0.25												27.256799697875977	27.230178833007812		7dz2_C.pkl	
+sample_alpha	1.03091561794281	0.9205268621444702	0.5												27.316139221191406	27.287845611572266		7dz2_C.pkl	
+sample_alpha	1.0600911378860474	0.952626645565033	0.75												27.365798950195312	27.340286254882812		7dz2_C.pkl	
+sample_alpha	1.0932254791259766	0.9868133664131165	1.0												27.42366600036621	27.396623611450195		7dz2_C.pkl	
+sample_summary				0.14502257108688354	0.9205268621444702	0.5	0.21130907535552979											7dz2_C.pkl	
+overall_alpha			0.0					0.0		1.236246109008789	1.1318359375		1.1318359375				1		
+overall_alpha			0.25					1.0		1.0853456258773804	0.9684325456619263		0.9684325456619263				1		
+overall_alpha			0.5					1.0		1.03091561794281	0.9205268621444702		0.9205268621444702				1		
+overall_alpha			0.75					1.0		1.0600911378860474	0.952626645565033		0.952626645565033				1		
+overall_alpha			1.0					1.0		1.0932254791259766	0.9868133664131165		0.9868133664131165				1		
+overall_summary									0.21130907535552979			0.21130907535552979		best_improvement_vs_alpha0			1		
+overall_summary									0.14502257108688354			0.14502257108688354		alpha1_improvement_vs_alpha0			1		
